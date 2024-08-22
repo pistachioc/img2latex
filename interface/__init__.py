@@ -5,7 +5,7 @@ from tkinter import filedialog, messagebox
 import matplotlib.pyplot as plt
 from PIL import Image, ImageTk
 
-from cli import LatexOCR
+from pix2tex.cli import LatexOCR
 from latex2img import latex2image
 
 # Biến toàn cục để lưu hình ảnh và mã LaTeX
@@ -118,7 +118,11 @@ def copy_latex():
 # Tạo cửa sổ chính
 root = tk.Tk()
 root.title("Chuyển đổi hình ảnh sang mã LaTeX")
-root.state("zoomed")  # Đặt cửa sổ ở chế độ full màn hình (vừa với toàn màn hình)
+# root.state("zoomed")  # Đặt cửa sổ ở chế độ full màn hình (vừa với toàn màn hình)
+
+# Thiết lập cửa sổ chiếm toàn bộ màn hình
+root.geometry(f"{root.winfo_screenwidth()}x{root.winfo_screenheight()}+0+0")
+
 root.config(bg="#282828")
 
 # Tạo thanh trạng thái
