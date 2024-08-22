@@ -1,7 +1,7 @@
 # **Im2LaTex - Chuyển đổi hình ảnh công thức toán học sang LaTex**
 > Thành viên nhóm: [**Đại Nguyễn**](https://github.com/pistachioc), [**Đức Phạm**](https://github.com/CharliePham141)
 > 
-> Đây là project môn học, mọi thứ còn sơ khai và nhiều thiếu sót, mong các thí chủ chỉ giáo và lượng thứ
+> Đây là project môn học, mọi thứ còn sơ khai và nhiều thiếu sót, các file cấu hình yaml, trọng số đã không thể đưa lên git được - phần nào do nặng quá dung lượng, mong các thí chủ chỉ giáo và lượng thứ
 > 
 > Lời cảm ơn đặc biệt đến quý ngài [***Lukas Blecher***](https://github.com/lukas-blecher) vì project này tham khảo chỉnh từ của ngài
 > 
