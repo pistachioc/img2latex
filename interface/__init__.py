@@ -193,7 +193,7 @@ canvas_latex.configure(yscrollcommand=scroll_y_latex.set, xscrollcommand=scroll_
 frame_canvas_latex_2 = tk.Frame(frame_images)
 frame_canvas_latex_2.pack(side=tk.LEFT, padx=10, pady=10, expand=True, fill=tk.BOTH)
 
-label_latex_2 = tk.Label(frame_canvas_latex_2, text="Mã LaTeX 2", bg="#1e1e1e", fg="white", font=("Arial", 12, "bold"))
+label_latex_2 = tk.Label(frame_canvas_latex_2, text="LaTex dự đoán sau khi Render", bg="#1e1e1e", fg="white", font=("Arial", 12, "bold"))
 label_latex_2.pack(pady=5)
 
 # Cửa sổ hiển thị kết quả LaTeX thứ hai
