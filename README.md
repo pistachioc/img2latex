@@ -33,7 +33,7 @@ Tiếp theo, sử dụng terminal với Interpreter đã tạo, chạy lệnh sa
 | [Im2LaTex-100K](https://www.kaggle.com/datasets/shahrukhkhan/im2latex100k) |   0.899    |        0.075         |     0.690      |
 
 
-## 5. Tham khảo
+## [5. Tham khảo](#Ref)
 [1] [An Image is Worth 16x16 Words](https://arxiv.org/abs/2010.11929)
 
 [2] [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
